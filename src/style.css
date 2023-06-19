@@ -1,0 +1,247 @@
+ h1:hover{
+  /* transform: scale(1); */
+  color: greenyellow;
+}
+.card {
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .card:hover {
+    background-color: #cfcbcb;
+  }
+  
+  .card h5 {
+    margin: 0;
+  }
+  
+  .card img {
+    width : 100%;
+      height: 250px;
+      border-radius :10px;
+      /* max-width: fit-content;
+      max-height: fit-content; */
+  }
+  body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    /* background-color: black; */
+  }
+  h1 {
+    text-shadow: 2px 3px 6px wheat;
+    
+  }
+  
+  /* Global styles */
+  body {
+    /* font-family: Arial, sans-serif; */
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header h1{
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: red;
+    /* text-decoration: underline solid red; */
+  }
+  
+  nav {
+    background-color: #333;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+  }
+  
+  nav ul li {
+    margin: 0 10px;
+  }
+  
+  
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  nav ul li a:hover {
+    color: #ffcc00;
+  }
+  footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  section.movies {
+    padding: 20px 0;
+    background-image: image("background-image.jpg");
+  }
+  
+  section.movies h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    text-decoration: underline solid;
+  }
+  
+  .movie-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    /* grid-gap: 20px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-radius: 10px;
+  }
+  .movie-grid tile{
+    color: red
+  }
+  
+  .movie {
+    background-color: #fff;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* .movie img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  } */
+  
+  .movie h3 {
+    margin-bottom: 5px;
+  }
+  
+  .movie a {
+    display: inline-block;
+    padding: 7px 10px;
+    margin : 10px;
+    /* background-color: #333; */
+    color: black;
+    text-decoration: none;
+    border-radius: 3px;
+    
+  }
+  .description{
+    font-size : medium;
+    text-align : left;
+    text-decoration: none;
+  }
+  section a:hover{
+    color:red;
+    opacity: 1;
+    transition: opacity 2s ease;
+  }
+
+.movie-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 20px;
+}
+
+.card {
+  text-align: center;
+  flex-basis: calc(33.33% - 20px);
+  margin-bottom: 20px;
+  box-shadow: 10px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.movie img {
+  width: 100%;
+  height: auto;
+}
+
+  
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination a {
+  display: inline-block;
+  margin: 0 5px;
+  padding: 5px 10px;
+  background-color: #f4f4f4;
+  color: #333;
+  text-decoration: none;
+  border-radius: 3px;
+}
+
+.pagination a:hover {
+  background-color: #333;
+  color: #fff;
+}
+.search-container {
+  margin-top: 20px;
+  text-align: center;
+}
+.search-container input[type="text"] {
+  padding: 10px;
+  width: 300px;
+  max-width: 100%;
+}
+.search-container button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+.movie {
+  margin: 10px;
+}
+  /* .card {
+      background-color: white;
+      padding: 10px;
+      margin-bottom: 10px;
+      display: inline-block;
+      /* width: 50%;
+      height: 50%;
+      padding0px */
+   
+
+    /* .card img {
+      width : 100%;
+      height: 250px;
+      border-radius :10px;
+      /* max-width: fit-content;
+      max-height: fit-content; */
+    /* } */
+
+    /* .movie h3 {
+      font-size: 18px;
+      margin-top: 5px;
+      margin-bottom: 5px;
+    } */
+
+    .card p {
+      font-size: 14px;
+      text-align: center;
+      color: black; /* Default color */
+      transition: red 0.3s ease-in-out; 
+      padding-top: 10px;
+      /* margin-top: 10px; */
+    }
+    .card:hover p {
+      color: red;
+    }
+    .card:hover img{
+      color:red
+    }
+  
